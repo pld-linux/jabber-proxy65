@@ -1,4 +1,3 @@
-%include /usr/lib/rpm/macros.python
 Summary:	A SOCKS5 Bytestreaming Component
 Summary(pl):	Komponent strumieniowania bajtów SOCKS5
 Name:		jabber-proxy65
