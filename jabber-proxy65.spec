@@ -7,7 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	proxy65-20040523.tar.bz2
-# Source0-md5:	890a476b54e13bfd4ab21440c6a5a8e2
+# Source0-md5:	b2b8a422da099a73d7dfa1305189959e
 Requires:	python-Twisted
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
