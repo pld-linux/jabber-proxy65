@@ -1,9 +1,13 @@
+# TODO:
+#   - write jabber-proxy65.init
+#   - add some example config files
+#
 %include /usr/lib/rpm/macros.python
 Summary:	A SOCKS5 Bytestreaming Component
 Summary(pl):	Komponent strumieniowania bajtów SOCKS5
 Name:		jabber-proxy65
 Version:	1.0
-Release:	1
+Release:	1.1
 License:	GPL
 Group:		Applications/Communications
 Source0:	proxy65-20040523.tar.bz2
@@ -41,6 +45,21 @@ python setup.py install --root=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post
+cat << EOF
+
+ *******************************************************
+ *                                                     *
+ *  NOTE:                                              *
+ *  Remember to run something like:                    *
+ *  mktap proxy65 --jid=proxy65.yourdomain \           *
+ *  --secret=yoursecret --rhost=yourIP rport=yourport\ *
+ *  --proxyip=proxyUP --proxyport=proxyport            *
+ *  Details can be found in the README file            *
+ *******************************************************
+
+EOF
 
 %files
 %defattr(644,root,root,755)
