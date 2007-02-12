@@ -1,5 +1,5 @@
 Summary:	A SOCKS5 Bytestreaming Component
-Summary(pl):	Komponent strumieniowania bajtów SOCKS5
+Summary(pl.UTF-8):   Komponent strumieniowania bajtÃ³w SOCKS5
 Name:		jabber-proxy65
 Version:	1.0
 Release:	0.9
@@ -19,10 +19,10 @@ for out-of-band file transfer. For a full definition of the
 functionality, please read JEP-0065. It is written in Python and built
 on top of the Twisted framework.
 
-%description -l pl
-Proxy65 jest komponentem instalowanym po stronie serwera, który
-pozwala dodaæ do serwera Jabbera us³ugê SOCKS5, u¿ywan± g³ównie do
-transferu plików. Pe³en opis funkcjonalno¶ci znajduje siê w dokumencie
+%description -l pl.UTF-8
+Proxy65 jest komponentem instalowanym po stronie serwera, ktÃ³ry
+pozwala dodaÄ‡ do serwera Jabbera usÅ‚ugÄ™ SOCKS5, uÅ¼ywanÄ… gÅ‚Ã³wnie do
+transferu plikÃ³w. PeÅ‚en opis funkcjonalnoÅ›ci znajduje siÄ™ w dokumencie
 JEP-0065. Proxy65 jest napisane w Pythonie i zbudowane na szkielecie
 Twisted.
 
