@@ -1,5 +1,5 @@
 Summary:	A SOCKS5 Bytestreaming Component
-Summary(pl.UTF-8):   Komponent strumieniowania bajtów SOCKS5
+Summary(pl.UTF-8):	Komponent strumieniowania bajtów SOCKS5
 Name:		jabber-proxy65
 Version:	1.0
 Release:	0.9
